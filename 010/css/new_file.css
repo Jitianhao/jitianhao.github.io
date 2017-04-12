@@ -1,0 +1,44 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.a{
+	width: 1200px;
+	margin: auto;
+}
+header,footer{
+	margin: 10px 0;
+	height: 150px;
+	border: 1px solid #00f;
+}
+section{
+	height: 500px;
+}
+aside{
+	width: 19%;
+	border: 1px solid #0000FF;
+	float: left;
+	min-height: 500px;
+}
+main{
+	width: 80%;
+	border: 1px solid #0000FF;
+	min-height: 500px;
+	margin-left: 240px;
+}
+.clear::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+h1{
+	text-align: center;
+}
+img{
+	float: left;
+}
+p{
+	margin-top: 120px;
+text-align: center;
+}
