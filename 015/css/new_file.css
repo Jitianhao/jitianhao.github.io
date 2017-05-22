@@ -1,0 +1,37 @@
+ul{
+	padding: 0;
+	list-style-type: none;
+}
+.mainNav{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.mainNav ul li{
+	float: left;
+	margin: 20px 30px;
+}
+body{
+	background: url(../img/01.jpg) center top fixed; 
+	min-height: 1200px;
+	color: #fff;
+}
+p a{
+	border-bottom:1px dashed #fff;
+	padding-bottom: 4px;
+	transition: border .5s;
+}
+p a:hover{
+	border-bottom:1px solid #fff;
+}
+.mainNav ul li a{
+	text-decoration: none;
+	color: blue;
+	padding: 20px;
+	border: 1px solid transparent;
+	transition: color .5s,border .5s;
+}
+.mainNav ul li a:hover{
+	color: #000;
+	border: 1px solid #fff;
+}
