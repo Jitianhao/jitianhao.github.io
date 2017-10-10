@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+		.clock{
+			background: url(img/clock.jpg);
+			width: 200px;
+			height: 200px;
+			background-size: 100%;
+			position: relative;
+		}
+			.ss{
+				width: 5px;
+				height: 60px;
+				background: #000000;
+				transform-origin:top center;
+				position: absolute;
+				top: 100px;
+				left: 100px;
+			}
+			.mm{
+				width: 5px;
+				height: 45px;
+				background: #ff0000;
+				transform-origin: top center;
+				position: absolute;
+				top: 100px;
+				left: 100px;
+				
+			}
+			.hh{
+				width: 5px;
+				height: 30px;
+				background: #00ff00;
+				transform-origin: top center;
+				position: absolute;
+				top: 100px;
+				left: 100px;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="clock">
+		<div class="ss"></div>
+		<div class="mm"></div>
+		<div class="hh"></div>
+	</div>
+		<script type="text/javascript">
+		var os=document.querySelector('.ss');
+		var om=document.querySelector('.mm');
+		var oh=document.querySelector('.hh');
+		function sss () {
+		var now=new Date();
+		var s=now.getSeconds();
+		var m=now.getMinutes();
+		var h=now.getHours();
+		os.style.transform="rotate("+s*6+"deg)";
+		om.style.transform="rotate("+m*6+"deg)";
+		oh.style.transform="rotate("+h*30+"deg)";
+		}
+		sss();
+		setInterval(sss,1000);
+		</script>
+	</body>
+</html>
