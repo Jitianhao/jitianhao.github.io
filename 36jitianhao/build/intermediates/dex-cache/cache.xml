@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\FragmentAnim1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="51d527bef6834efb2d35aa873f7c69ac444e16b7">
+        <dex dex="D:\FragmentAnim1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_cc85619f4feabbdb5537624f158b549b627a287d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\FragmentAnim1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\FragmentAnim1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_9625761db7f7718577add4315bccb3e423bb1cd7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\FragmentAnim1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_0cf3d10c35e3a85c12847a4ae04cc53252341eed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\FragmentAnim1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1bf4553a226a9ee84b7054e61503b2cc481901d1">
+        <dex dex="D:\FragmentAnim1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fde16a1379db130b58ccbfedad54fcb0ee61be20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\FragmentAnim1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\FragmentAnim1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.1_3a1469bb70ef4f93bd36999b9924f7a9a68efdc1\classes.dex" />
+    </item>
+
+</items>
